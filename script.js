@@ -20,4 +20,16 @@ const personalMovieDB =  {
 
 console.log(personalMovieDB);
 
+const titleMovie1 = prompt('Один из просмотренных фильмов');
+const scoresMovie1 = prompt('На сколько оцениваете его?');
+const titleMovie2 = prompt('Один из просмотренных фильмов');
+const scoresMovie2 = prompt('На сколько оцениваете его?');
+
+const movies = {
+    [titleMovie1] : scoresMovie1,
+    [titleMovie2] : scoresMovie2
+};
+
+console.log(movies);
+
 
