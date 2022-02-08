@@ -10,5 +10,14 @@ const numberOfFilms = prompt('Сколько фильмов вы уже посм
 
 
 // console.log(numberOfFilms);
+const personalMovieDB =  {
+    count : numberOfFilms,
+    movies:'',
+    actorus: '',
+    genders:[],
+    privat: false
+};
+
+console.log(personalMovieDB);
 
 
