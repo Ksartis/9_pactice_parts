@@ -48,11 +48,11 @@ function detectPersonalLevel() {
 detectPersonalLevel();
 
 function showMyDB(hidden) {
-    if(personalMovieDB.privat == false) {
+    if(!hidden) {
         console.log(personalMovieDB); 
     }
 }
-showMyDB();
+showMyDB(personalMovieDB.privat);
 
 function writeYourGenders() {
     for (let i = 1; i <= 3; i++) {
